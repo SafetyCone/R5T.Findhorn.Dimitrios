@@ -1,0 +1,4 @@
+R5T.Findhorn.Dimitrios.Construction - A construction console-app for the library R5T.Findhorn.Dimitrios.
+
+Goals
+
