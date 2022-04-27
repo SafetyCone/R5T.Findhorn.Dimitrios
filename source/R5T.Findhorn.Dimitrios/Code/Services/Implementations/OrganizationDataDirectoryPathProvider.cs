@@ -1,13 +1,13 @@
-﻿using System;
+using System;
 
 using R5T.Dalkeith;
 using R5T.Dimitrios;
-using R5T.Lombardy;
+using R5T.Lombardy;using R5T.T0064;
 
 
 namespace R5T.Findhorn.Dimitrios
-{
-    public class OrganizationDataDirectoryPathProvider : IDataDirectoryPathProvider
+{[ServiceImplementationMarker]
+    public class OrganizationDataDirectoryPathProvider : IDataDirectoryPathProvider,IServiceImplementation
     {
         private IOrganizationDirectoryPathProvider OrganizationDirectoryPathProvider { get; }
         private IDataDirectoryNameConvention DataDirectoryNameConvention { get; }
